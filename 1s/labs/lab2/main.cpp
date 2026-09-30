@@ -3,15 +3,14 @@
 using namespace std;
 
 int main() {
-    int n,a,b,c,d;
-    cin>>n;
-    a = n / 1000;
-    b = (n / 100) % 10;
-    c = (n / 10) % 10;
-    d = n % 10;
-    if (a!=b&&b!=c&&c!=d){
-        cout<<"The statement that all digits of this number are different is true";
-    }else{
-        cout<<"The statement that all digits of this number are different is false";
+    int y=19;
+    double x=1.95,z=-3.26;
+    double t;
+    double u;
+    t = t = 1 + x + (pow(x, 2) / 2) - (pow(x, 3) / 3); u = exp(x * z) + (sqrt(y / x));
+    if (t>u){
+        cout<<"True";
+    }else if (u>t){
+        cout<<"False";
     }
 }
