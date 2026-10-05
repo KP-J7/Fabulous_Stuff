@@ -9,4 +9,7 @@ int main(){
         s+=d;
         p+=d;
   }
+cout<<"k="<<k<<endl;
+cout<<"s="<<s<<endl;
+cout<<"p="<<p<<endl;
 }
