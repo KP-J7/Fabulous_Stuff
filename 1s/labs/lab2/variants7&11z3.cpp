@@ -9,8 +9,8 @@ int main() {
     double u;
     t = t = 1 + x + (pow(x, 2) / 2) - (pow(x, 3) / 3); u = exp(x * z) + (sqrt(y / x));
     if (t>u){
-        cout<<"True";
+        std::cout<<"True";
     }else if (u>t){
-        cout<<"False";
+        std::cout<<"False";
     }
 }
