@@ -11,6 +11,5 @@ int main() {
     }else {
         std::cout<<"Error.Please, enter the right number"<<std::endl;
         goto start;
-
     }
 }
