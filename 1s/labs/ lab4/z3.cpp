@@ -16,9 +16,9 @@ int main() {
         int s=0;
         while (tmp>0) {
             s+=tmp%10;
-            tmp/= 10;
+            tmp/=10;
         }
-        if (sd%s==0) {
+        if (sd%s==0){
             std::cout<<d<<std::endl;
         }
     }
