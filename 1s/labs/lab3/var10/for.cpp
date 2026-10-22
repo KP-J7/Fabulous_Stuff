@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 int main() {
     int N;
     std::cout << "Введите число N: ";
