@@ -13,6 +13,5 @@ int main() {
         double denominator = 2 * exp(n);      // 2*e^n
         Z *= (numerator / denominator);    
     }
-    std::cout << "Результат Z = " <<Z<<std::endl;    
-    return 0;
+    std::cout << "Z= "<<Z<<std::endl;    
 }
