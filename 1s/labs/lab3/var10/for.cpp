@@ -1,7 +1,7 @@
 #include <iostream>
 int main() {
     int N;
-    std::cout << "Введите число N: ";
+    std::cout << "N=";
     std::cin >> N;
     long long sum = 0; 
     std::cout << "Числа, удовлетворяющие условию: ";    
