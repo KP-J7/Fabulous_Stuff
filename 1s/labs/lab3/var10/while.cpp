@@ -3,7 +3,6 @@ int main() {
     int N;
     std::cout << "N=: ";
     std::cin >> N;
-
     long long sum = 0;
     int i = 21; 
     std::cout << "Numbers, which  meet the condition: ";
