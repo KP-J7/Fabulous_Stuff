@@ -15,7 +15,7 @@ int main() {
         int tmp=d;
         int s=0;
         while (tmp>0) {
-            s += tmp % 10;
+            s+=tmp%10;
             tmp/= 10;
         }
         if (sd%s==0) {
