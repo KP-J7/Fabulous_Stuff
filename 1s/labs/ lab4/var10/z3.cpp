@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-using namespace std;
 void main() {
     int m, n;
     cout << "Enter M: "; cin >> m;
