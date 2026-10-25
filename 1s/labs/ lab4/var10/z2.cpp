@@ -1,12 +1,11 @@
 #include <iostream>
-using namespace std;
 void main() {
     int n;
-    cout << "Enter_number_N:"; cin >> n;
+    std::cout << "Enter_number_N:"; std::cin >> n;
     for (int i = 1; i <= n; ++i) {
         for (int j = i; j <= n; ++j) {
-            cout << j << " ";
+            std::cout << j << " ";
         }
-        cout << endl;
+        std::cout << endl;
     }
 }
