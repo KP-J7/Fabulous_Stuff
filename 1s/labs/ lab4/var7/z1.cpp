@@ -22,4 +22,3 @@ int main() {
             std::cout<<"You're amazing!";
     }
 }
-
