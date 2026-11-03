@@ -22,6 +22,6 @@ int main() {
             std::cout<<"You're amazing!";
     }
     std::cout<<"What is your favorite programming language?"<<std::endl;
-    std::cout<<"(1-C++,2-C,3-Kotlin,4-Java,5-Python,6-Rust,7-C++,8-JavaScript,9-PHP,10-Go,11-R,12-Fortran,13-Perl,14-Ruby,15-Scala"<<std::endl;
+    std::cout<<"(1-C++,2-C,3-Kotlin,4-Java,5-Python,6-Rust,7-C#,8-JavaScript,9-PHP,10-Go,11-R,12-Fortran,13-Perl,14-Ruby,15-Scala"<<std::endl;
     std::cin>>n;
 }
