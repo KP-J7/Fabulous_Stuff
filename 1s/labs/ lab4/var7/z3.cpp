@@ -5,21 +5,21 @@ int main() {
     std::cin>>m;
     std::cout << "n=";
     std::cin>>n;
-    for (int d=m; d<=n;d++) {
+    for (int i=m; i<=n;d++) {
         int sd=0;
-        for (int i=1; i<=d/2; i++) {
-            if (d%i==0) {
-                sd+=i;
+        for (int j=1; j<=d/2; j++) {
+            if (d%j==0) {
+                sd+=j;
             }
         }
-        int tmp=d;
+        int tmp=i;
         int s=0;
         while (tmp>0) {
             s+=tmp%10;
             tmp/=10;
         }
         if (sd%s==0){
-            std::cout<<d<<std::endl;
+            std::cout<<i<<std::endl;
         }
     }
 }
