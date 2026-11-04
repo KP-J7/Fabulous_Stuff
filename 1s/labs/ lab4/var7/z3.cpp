@@ -1,25 +1,29 @@
 #include <iostream>
+using namespace std;
 int main() {
-    int m,n;
-    std::cout << "m=";
-    std::cin>>m;
-    std::cout << "n=";
-    std::cin>>n;
-    for (int i=m; i<=n;i++) {
-        int sd=0;
-        for (int j=1; j<=i/2; j++) {
-            if (i%j==0) {
-                sd+=j;
+    int m, n;
+    cout<<"M=";
+    cin>>m;
+    cout<<"N=";
+    cin>>n;
+    for (int k = m; k <= n;k++) {
+        int sum_div = 0;
+        for (int i=1; i*i<=k;i++) {
+            if (k%i == 0) {
+                sum_div += i;
+                if (i!=k/i) {
+                    sum_div+=k/i;
+                }
             }
         }
-        int tmp=i;
-        int s=0;
-        while (tmp>0) {
-            s+=tmp%10;
+        int tmp=k;
+        int sum_digits=0;
+        while(tmp>0) {
+            sum_digits+=tmp%10;
             tmp/=10;
         }
-        if (sd%s==0){
-            std::cout<<i<<std::endl;
+        if (sum_div%sum_digits==0) {
+            cout <<k<<endl;
         }
     }
 }
