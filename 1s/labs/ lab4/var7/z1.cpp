@@ -5,9 +5,9 @@ int main() {
         std::cout<<"Do you like programming?(1-yes/2-no)"<<std::endl;
         std::cin>>n;
         if (n==1){
-            std::cout<<"You're cool guy!";
+            std::cout<<"You're cool guy!"<<std::endl;
         }else if (n==2){
-            std::cout<<"Yore're bad guy!";
+            std::cout<<"Yore're bad guy!"<<std::endl;
         }else {
             std::cout<<"Error.Please, enter the right number"<<std::endl;
             goto start;
@@ -15,16 +15,64 @@ int main() {
     std::cout<<"How old were you when you wrote your first code?"<<std::endl;
     std::cin>>age;
     if (age<13){
-            std::cout<<"You're lucky!";}
+            std::cout<<"You're lucky!"<<std::endl;}
      else if (13<=k<=50){
-            std::cout<<"Oh! It's usual for all programmers!";}
+            std::cout<<"Oh! It's usual for all programmers!"<<std::endl;}
      else{
-            std::cout<<"You're amazing!";
+            std::cout<<"You're amazing!"<<std::endl;
     }
     std::cout<<"What is your favorite programming language?"<<std::endl;
-    std::cout<<"(1-C++,2-C,3-Kotlin,4-Java,5-Python,6-Rust,7-C#,8-JavaScript,9-PHP,10-Go,11-R,12-Fortran,13-Perl,14-Ruby,15-Scala"<<std::endl;
+    std::cout<<"(1-C++,2-C,3-Kotlin,4-Java,5-Python,6-Rust,7-C#,8-JavaScript,9-PHP,10-Go,11-R,12-Fortran,13-Perl,14-Ruby,15-Scala)"<<std::endl;
     std::cin>>n;
-    if (n==1||n==2||n==3||n==4||n==5||n==6||n==7){
-        std::cout<<"You're really cool,bro!";
-    }
+    switch (n){
+        case 1:
+            std::cout<<"You're incredible,bro!"<<std::endl;
+            break;
+        case 2:
+            std::cout<<"You're cool,bro!"<<std::endl;
+            break;
+        case 3:
+            std::cout<<"You're cool,bro!"<<std::endl;
+            break;
+        case 4:
+            std::cout<<"You're cool,bro!"<<std::endl;
+            break;
+        case 5:
+            std::cout<<"You're cool,bro!"<<std::endl;
+            break;
+        case 6:
+            std::cout<<"You're cool,bro!"<<std::endl;
+            break;
+        case 7:
+            std::cout<<"You're cool,bro!"<<std::endl;
+            break;
+        case 8:
+            std::cout<<"You're strange,bro!"<<std::endl;
+            break;
+        case 9:
+            std::cout<<"You're strange,bro!"<<std::endl;
+            break;
+        case 10:
+            std::cout<<"You're strange,bro!"<<std::endl;
+            break;
+        case 11:
+            std::cout<<"You're strange,bro!"<<std::endl;
+            break;
+        case 12:
+            std::cout<<"You're strange,bro!"<<std::endl;
+            break;
+        case 13:
+            std::cout<<"You're strange,bro!"<<std::endl;
+            break;
+        case 14:
+            std::cout<<"You're strange,bro!"<<std::endl;
+            break;
+        case 15:
+            std::cout<<"You're strange,bro!"<<std::endl;
+            break;
+        default:
+            std::cout<<"You've entered the wrong number!"<<std::endl;
+            break;
+        }
+    std::cout<<"Goodbuy, fellow!"<<std::endl;
 }
