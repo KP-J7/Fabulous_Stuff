@@ -5,10 +5,10 @@ int main() {
     std::cin>>m;
     std::cout << "n=";
     std::cin>>n;
-    for (int i=m; i<=n;d++) {
+    for (int i=m; i<=n;i++) {
         int sd=0;
-        for (int j=1; j<=d/2; j++) {
-            if (d%j==0) {
+        for (int j=1; j<=i/2; j++) {
+            if (i%j==0) {
                 sd+=j;
             }
         }
