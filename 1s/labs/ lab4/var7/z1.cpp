@@ -1,6 +1,6 @@
 #include <iostream>
 int main() {
-    int n,age,k;
+    int n,age,k,f;
     start:
         std::cout<<"Do you like programming?(1-yes/2-no)"<<std::endl;
         std::cin>>n;
@@ -74,5 +74,7 @@ int main() {
             std::cout<<"You've entered the wrong number!"<<std::endl;
             break;
         }
-    std::cout<<"Goodbuy, fellow!"<<std::endl;
+    std::cout<<"What operating system do you usually use?(1-Windows/2-UNIX-like)"<<std::endl;
+    if (f==1)
+        std::cout<<"You're usual man!"<<std::endl;
 }
