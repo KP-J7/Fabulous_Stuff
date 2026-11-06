@@ -78,7 +78,16 @@ int main() {
     if (f==1)
         std::cout<<"You're usual man!"<<std::endl;
     else if (f==2)
-        std::cout<<"Which UNIX-like system do you usually use?(1-Linux distribution/2-FreeBSD/3-OpenBSD/4-macOS)"<<std::endl;
+        std::cout<<"Which UNIX-like system do you usually use?(1-Linux distribution/2-FreeBSD/3-OpenBSD/4-NetBSD/5-macOS)"<<std::endl;
+        std::cin>>s;
+        if (s==2||s==3||s==4)
+            std::cout<<"You're real crazy geek!"<<std::endl;
+        else if (s==1)
+            std::cout<<"What Linux distribution do you usually use?(1-Ubuntu/2-Debian/3-Fedora/4-Linux Mint/5-Arch Linux/6-Red Hat Linux/7-"
+        else if (s==5)
+            std::cout<<"You are susceptible to marketing influence!Why buy something when you can get it for free?"<<std::endl;
+        else
+            std::cout<<"You've entered the wrong number!"<<std::endl;        
     else
         std::cout<<"You've entered the wrong number!"<<std::endl;
 }
