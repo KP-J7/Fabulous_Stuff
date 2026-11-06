@@ -77,4 +77,8 @@ int main() {
     std::cout<<"What operating system do you usually use?(1-Windows/2-UNIX-like)"<<std::endl;
     if (f==1)
         std::cout<<"You're usual man!"<<std::endl;
+    else if (f==2)
+        std::cout<<"Which UNIX-like system do you usually use?(1-Linux distribution/2-FreeBSD/3-OpenBSD/4-macOS)"<<std::endl;
+    else
+        std::cout<<"You've entered the wrong number!"<<std::endl;
 }
