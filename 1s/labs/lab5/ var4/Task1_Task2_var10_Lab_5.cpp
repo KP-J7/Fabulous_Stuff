@@ -2,15 +2,13 @@
 #include <cstdlib>
 #include <ctime>
 #include <climits>
-using namespace std;
 void main() {
-    srand(time(NULL));
+    srand(time(0));
     const int n = 15;
     int idk[n];
-
-    for (int i = 0; i < n; ++i) {
-        idk[i] = rand() % 1000;
-        cout << idk[i] << " ";
+    for (int i=0; i n;i++) {
+        idk[i]= rand() % 1000;
+        std::out <<idk[i] << " ";
     }
     // Task 1
     int x;
