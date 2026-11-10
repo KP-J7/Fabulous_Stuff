@@ -10,9 +10,9 @@ void main() {
         idk[i]= rand() % 1000;
         std::out <<idk[i] << " ";
     }
-    // Task 1
+    /*z1*/
     int x;
-    cout << "Enter x:"; cin >> x;
+     std::cout << "Enter x:";  std::cin >> x;
     long long sum = 0;
 
     for (int i = 0; i < n; ++i) {
@@ -20,16 +20,18 @@ void main() {
             sum += idk[i];
         }
     }
-    cout << "Sum_of_numbers " << x << ":" << sum << endl;
-    // Task 2
-    int max = 0;
-    for (int i = 0; i < n; ++i) {
-        if (idk[i] >= 100 && idk[i] <= 999) {
+     std::cout<<"Sum_of_numbers "<<x << ":" <<sum<<std::endl;
+    /*z2*/
+    int max=0;
+    for (int i=0; i<n;i++) {
+        if (idk[i]>= 00 && idk[i] <= 999) {
             if (idk[i] > max) {
                 max = idk[i];
             }
         }
     }
-    if (max == 0) {cout << "Max_three_digit_number:" << max << endl;}
-    else {cout << "No_three_digit_number" << endl;}
+    if (max == 0)
+        cout << "Max_three_digit_number:" <<max <<endl;
+    else
+        std::cout<<"No_three_digit_number"<<std::endl;
 }
