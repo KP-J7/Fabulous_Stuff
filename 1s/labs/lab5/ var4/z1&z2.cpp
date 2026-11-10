@@ -4,22 +4,22 @@
 #include <climits>
 void main() {
     srand(time(0));
-    const int n = 15;
+    const int n=15;
     int idk[n];
     for (int i=0; i n;i++) {
         idk[i]= rand() % 1000;
-        std::out <<idk[i] << " ";
+        std::out<<idk[i]<<" ";
     }
     /*z1*/
     int x;
-     std::cout << "Enter x:";  std::cin >> x;
+     std::cout <<"x=";  std::cin>>x;
     long long sum = 0;
-    for (int i = 0; i < n; ++i) {
-        if (x != 0 && idk[i] % x == 0) {
-            sum += idk[i];
+    for (int i=0; i<n; i++) {
+        if (x!=0 && idk[i]%x==0) {
+            sum+=idk[i];
         }
     }
-     std::cout<<"Sum_of_numbers "<<x << ":" <<sum<<std::endl;
+     std::cout<<"Sum of numbers "<<x << ":" <<sum<<std::endl;
     /*z2*/
     int max=0;
     for (int i=0; i<n;i++) {
@@ -30,7 +30,7 @@ void main() {
         }
     }
     if (max==0)
-        std::cout<<"Max_three_digit_number:"<<max<<endl;
+        std::cout<<"Max three-symbol number:"<<max<<endl;
     else
-        std::cout<<"No_three_digit_number"<<std::endl;
+        std::cout<<"No three-symbol number"<<std::endl;
 }
